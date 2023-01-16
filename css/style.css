@@ -23,26 +23,28 @@ font-family: 'Nova Oval', cursive;
 
 /*-----Barra de navegacion-----*/
 
-.container__navbar li a{
+.container__navbar nav div a {
     color: #05162e;
+    /*
     margin-right: 2%;
     margin-left: 2%;
     padding-left: 3%;
-    text-decoration: none;
+    text-decoration: none;*/
 }
 
+
 .container__navbar li{
-    
+    /*
     list-style: none;
-    display: inline;
+    display: inline;*/
     font-size: 30px;
     font-family: 'Aclonica', sans-serif;
     
 }
 
-.container__navbar nav{
+.container__navbar nav div{
     background-color: #6365ce;
-    margin-right: 2%;
+    /*margin-right: 2%;*/
 }
 
 
