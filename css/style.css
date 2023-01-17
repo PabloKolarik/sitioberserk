@@ -20,21 +20,20 @@ font-family: 'Nova Oval', cursive;
 
 /*-----Barra de navegacion-----*/
 
-.container__navbar {
+.container__navbar div{
+    display: block;
+    justify-content: center;
     background-color: #7173ee;
     font-size: 30px;
     font-family: "Aclonica", sans-serif;
-    padding: 0%;
-    margin: auto;
-
-
-
 }
 
 .container__navbar a {
     color: #05162e;
-
+    
 }
+
+
 
 
 
@@ -186,7 +185,7 @@ form label {
 
 .container__pj h1 {
     background-color: #6365ce;
-    margin-right: 2%;
+    margin: auto;
     font-size: 50px;
     font-family: "Fondamento", cursive;
     text-align: center;
@@ -194,11 +193,12 @@ form label {
 
 
 .caja {
+    margin: 10px;
     width: 300px;
     height: 600px;
     background-color: #6365ce;
     overflow: scroll;
-    border-style: double;
+
 }
 
 
@@ -206,13 +206,16 @@ form label {
     width: 281px;
     height: 281.5px;
     display: block;
-    margin: auto;
-    margin-top: 2%;
+    margin: 8px 8px;
+    
+    padding: 2px;
 }
 
 
 .container__tarjetas {
     display: inline-block;
+    display: block;
+    justify-content: center;
 }
 
 /*-----tienda-----*/
