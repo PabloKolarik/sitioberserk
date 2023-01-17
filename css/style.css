@@ -1,5 +1,5 @@
 * {
-    margin-left: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -192,20 +192,24 @@ form label {
     text-align: center;
 }
 
+
 .caja {
     width: 300px;
     height: 600px;
     background-color: #6365ce;
     overflow: scroll;
+    border-style: double;
 }
 
+
 .caja__imagen {
-    width: 95%;
-    height: 50%;
+    width: 281px;
+    height: 281.5px;
     display: block;
     margin: auto;
     margin-top: 2%;
 }
+
 
 .container__tarjetas {
     display: inline-block;
