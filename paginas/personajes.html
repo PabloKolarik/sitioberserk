@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <!--mi CSS-->
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 
@@ -28,9 +33,6 @@
 
     <link rel="shortcut icon" href="../Imagenes/Marca.png">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
 
     <title>Personajes</title>
 
@@ -39,22 +41,11 @@
 <body>
 
 
-    <header class="container__navbar">
-        <!--<nav>
-            <ul>
-                <li><a href="../index.html"><i class="fa-solid fa-chess-rook"></i></a></li>
-                <li><a href="../paginas/galeria.html">Galeria</a></li>
-                <li><a href="../paginas/bio.html">Sobre el Autor</a></li>
-                <li><a href="../paginas/personajes.html">Personajes</a></li>
-                <li><a href="../paginas/contacto.html">Contacto</a></li>
-                <li><a href="../paginas/tienda.html">Tienda</a></li>
-            </ul>
+    <header>
 
 
-        </nav>-->
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top container__navbar">
+            <div class="container-fluid container__navbar">
                 <a href="../index.html"><i class="fa-solid fa-chess-rook"></i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +54,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../paginas/galeria.html">Galeria</a>
+                            <a class="nav-link" aria-current="page" href="../paginas/galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../paginas/bio.html">Sobre el Autor</a>
@@ -81,6 +72,8 @@
                 </div>
             </div>
         </nav>
+
+
     </header>
 
     <main>
