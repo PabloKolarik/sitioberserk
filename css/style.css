@@ -238,30 +238,42 @@ form label {
 
 /*-----figuras-----*/
 
-.ima__figu {
+.figuras{
+    margin: auto;
+    padding: 0%;
+    border-color: #05162e;
+    border-style: double;
+}
+.img__carru{
+    margin: 10px;
     width: 300px;
-    height: 300px;
-    padding: 10px;
+    height: 400px;
+    
 }
 
-.figuras div {
-    display: inline-block;
-}
 
-.button {
-    display: inline-block;
-    width: 90px;
+.boton {
+    display: inline-block;    
     text-align: center;
-    background-color: #6365ce;
-    margin-left: 120px;
+    background-color: #6365ce;    
     font-weight: 700;
     text-decoration: none;
     padding: 5px;
     border-style: groove;
     border-color: #05162e;
+    
+    
 }
 
-.figuras div h4 {
+.boton:hover{
+    color: rgb(26, 0, 43);
+    background-color: rgb(68, 11, 105);
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: rgb(183, 76, 233);
+}
+
+.figuras div {
     color: #05162e;
     background-color: #6365ce;
     font-family: "Fondamento", cursive;
