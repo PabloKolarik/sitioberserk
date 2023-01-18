@@ -33,20 +33,18 @@ font-family: 'Nova Oval', cursive;
 
 }
 
-.nav__titulo{
+.nav__titulo {
 
     cursor: default;
     transition: all 400ms ease;
 }
 
-.nav__titulo:hover{
-    
-    transform: translateY(-3% );
-    
+.nav__titulo:hover {
+
+    transform: translateY(-3%);
+
 }
-.nav__titulo2{
-    transform: rotateY(30'angle');
-}
+
 
 
 
@@ -179,13 +177,18 @@ form label {
     font-size: 150%;
     font-family: "Nova Oval", cursive;
     line-height: 38px;
-    background-color: #6365ce;
+    background: rgba(99, 101, 206, 0.65);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .container__autor div {
     display: inline-block;
     text-align: center;
-    height: 10px;
+
 }
 
 .container__bio h2 {
@@ -213,15 +216,15 @@ form label {
     height: 600px;
     background-color: #6365ce;
     overflow: scroll;
-    
-    
+
+
     cursor: default;
     transition: all 400ms ease;
 }
 
-.caja:hover{
-    
-    transform: translateY(-3% );
+.caja:hover {
+
+    transform: translateY(-3%);
 }
 
 
@@ -244,28 +247,29 @@ form label {
 /*-----tienda-----*/
 
 .container__tienda h1 {
-    background-color:  #6365ce;
-    margin: 10px;;
+    background-color: #6365ce;
+    margin: 10px;
+    ;
     font-size: 50px;
     font-family: "Fondamento", cursive;
     text-align: center;
-    
+
 }
 
 .titulo__tienda {
     background-color: #6365ce;
-    margin:auto;
+    margin: auto;
     padding: 5px;
     font-size: 30px;
     font-family: "Fondamento", cursive;
     text-align: center;
-    
+
 }
 
 /*-----figuras-----*/
 
 .figuras {
-    
+
     margin: auto;
     padding: 0%;
     border-color: #05162e;
@@ -313,7 +317,7 @@ form label {
 
 
 
-.manga  {
+.manga {
     color: #05162e;
     background-color: #6365ce;
     font-family: "Fondamento", cursive;
@@ -338,5 +342,3 @@ footer ul li a {
 footer hr {
     color: rgb(5, 22, 46);
 }
-
-
