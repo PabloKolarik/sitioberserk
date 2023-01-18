@@ -20,7 +20,7 @@ font-family: 'Nova Oval', cursive;
 
 /*-----Barra de navegacion-----*/
 
-.container__navbar div{
+.container__navbar div {
     display: block;
     justify-content: center;
     background-color: #7173ee;
@@ -30,7 +30,7 @@ font-family: 'Nova Oval', cursive;
 
 .container__navbar a {
     color: #05162e;
-    
+
 }
 
 
@@ -207,7 +207,7 @@ form label {
     height: 281.5px;
     display: block;
     margin: 8px 8px;
-    
+
     padding: 2px;
 }
 
@@ -221,51 +221,76 @@ form label {
 /*-----tienda-----*/
 
 .container__tienda h1 {
-    background-color: #6365ce;
-    margin-right: 2%;
+    background-color: 
+    {
+    
+        /* ff 3.6+ */
+        background:-moz-linear-gradient(90deg, rgba(170, 0, 255, 1) 7%, rgba(90, 0, 212, 1) 37%, rgba(53, 4, 53, 1) 77%); 
+    
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-linear-gradient(90deg, rgba(170, 0, 255, 1) 7%, rgba(90, 0, 212, 1) 37%, rgba(53, 4, 53, 1) 77%);
+    
+        /* opera 11.10+ */
+        background:-o-linear-gradient(90deg, rgba(170, 0, 255, 1) 7%, rgba(90, 0, 212, 1) 37%, rgba(53, 4, 53, 1) 77%);
+    
+        /* ie 6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#350435', endColorstr='#AA00FF', GradientType=0 );
+    
+        /* ie 10+ */
+        background:-ms-linear-gradient(90deg, rgba(170, 0, 255, 1) 7%, rgba(90, 0, 212, 1) 37%, rgba(53, 4, 53, 1) 77%);
+    
+        /* global 94%+ browsers support */
+        background:linear-gradient(90deg, rgba(170, 0, 255, 1) 7%, rgba(90, 0, 212, 1) 37%, rgba(53, 4, 53, 1) 77%);
+    
+    } #6365ce;
+    margin: 10px;;
     font-size: 50px;
     font-family: "Fondamento", cursive;
     text-align: center;
+    
 }
 
 .titulo__tienda {
     background-color: #6365ce;
-    margin-right: 2%;
+    margin:auto;
+    padding: 5px;
     font-size: 30px;
     font-family: "Fondamento", cursive;
     text-align: center;
+    
 }
 
 /*-----figuras-----*/
 
-.figuras{
+.figuras {
     margin: auto;
     padding: 0%;
     border-color: #05162e;
     border-style: double;
 }
-.img__carru{
-    margin: 10px;
+
+.img__carru {
+    padding: 10px;
     width: 300px;
     height: 400px;
-    
+
 }
 
 
 .boton {
-    display: inline-block;    
+    display: inline-block;
     text-align: center;
-    background-color: #6365ce;    
+    background-color: #6365ce;
     font-weight: 700;
     text-decoration: none;
     padding: 5px;
     border-style: groove;
     border-color: #05162e;
-    
-    
+
+
 }
 
-.boton:hover{
+.boton:hover {
     color: rgb(26, 0, 43);
     background-color: rgb(68, 11, 105);
     border-radius: 50px;
