@@ -221,28 +221,7 @@ form label {
 /*-----tienda-----*/
 
 .container__tienda h1 {
-    background-color: 
-    {
-    
-        /* ff 3.6+ */
-        background:-moz-linear-gradient(90deg, rgba(170, 0, 255, 1) 7%, rgba(90, 0, 212, 1) 37%, rgba(53, 4, 53, 1) 77%); 
-    
-        /* safari 5.1+,chrome 10+ */
-        background:-webkit-linear-gradient(90deg, rgba(170, 0, 255, 1) 7%, rgba(90, 0, 212, 1) 37%, rgba(53, 4, 53, 1) 77%);
-    
-        /* opera 11.10+ */
-        background:-o-linear-gradient(90deg, rgba(170, 0, 255, 1) 7%, rgba(90, 0, 212, 1) 37%, rgba(53, 4, 53, 1) 77%);
-    
-        /* ie 6-9 */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#350435', endColorstr='#AA00FF', GradientType=0 );
-    
-        /* ie 10+ */
-        background:-ms-linear-gradient(90deg, rgba(170, 0, 255, 1) 7%, rgba(90, 0, 212, 1) 37%, rgba(53, 4, 53, 1) 77%);
-    
-        /* global 94%+ browsers support */
-        background:linear-gradient(90deg, rgba(170, 0, 255, 1) 7%, rgba(90, 0, 212, 1) 37%, rgba(53, 4, 53, 1) 77%);
-    
-    } #6365ce;
+    background-color:  #6365ce;
     margin: 10px;;
     font-size: 50px;
     font-family: "Fondamento", cursive;
@@ -263,6 +242,7 @@ form label {
 /*-----figuras-----*/
 
 .figuras {
+    
     margin: auto;
     padding: 0%;
     border-color: #05162e;
@@ -307,35 +287,17 @@ form label {
 
 /*-----manga-----*/
 
-.div__manga {
-    display: inline-block;
-}
 
-.img__manga {
-    width: 200px;
-    height: 250px;
-    padding: 10px;
-}
 
-.mangas h4 {
+
+.manga  {
     color: #05162e;
     background-color: #6365ce;
     font-family: "Fondamento", cursive;
     text-align: center;
 }
 
-.button__manga {
-    display: inline-block;
-    width: 90px;
-    text-align: center;
-    background-color: #6365ce;
-    margin-left: 70px;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 5px;
-    border-style: groove;
-    border-color: #05162e;
-}
+
 
 /*-----Footer-----*/
 
