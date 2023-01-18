@@ -33,6 +33,21 @@ font-family: 'Nova Oval', cursive;
 
 }
 
+.nav__titulo{
+
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.nav__titulo:hover{
+    
+    transform: translateY(-3% );
+    
+}
+.nav__titulo2{
+    transform: rotateY(30'angle');
+}
+
 
 
 
@@ -198,7 +213,15 @@ form label {
     height: 600px;
     background-color: #6365ce;
     overflow: scroll;
+    
+    
+    cursor: default;
+    transition: all 400ms ease;
+}
 
+.caja:hover{
+    
+    transform: translateY(-3% );
 }
 
 
@@ -315,3 +338,5 @@ footer ul li a {
 footer hr {
     color: rgb(5, 22, 46);
 }
+
+
