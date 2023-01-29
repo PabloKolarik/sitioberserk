@@ -1,0 +1,46 @@
+// base
+@import './base/colores';
+
+// components
+
+
+
+header {
+    .container__navbar div {
+        display: block;
+        justify-content: center;
+        background-color: $color-fbarras;
+        font-size: 30px;
+        font-family: "Aclonica", sans-serif;
+    }
+
+    .container__navbar a {
+        color: $color-titulos;
+    }
+
+    .nav__titulo {
+        cursor: default;
+        transition: all 400ms;
+    }
+
+    .nav__titulo:hover {
+        transform: translateY(-3%);
+
+    }
+}
+
+body {
+    background-color: $color-fondoindex;
+    background-image: url("../imagenes/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.container__index h1{
+    color: $color-titulos;
+    
+}
+.container__index h2 {
+    background-color: $color-fbarras;
+}

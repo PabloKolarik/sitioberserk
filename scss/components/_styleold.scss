@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #340a5c;
+    background-image: url("../imagenes/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Fuentes
+font-family: 'Aclonica', sans-serif;
+font-family: 'Fondamento', cursive;
+font-family: 'Nova Oval', cursive;
+
+*/
+
+/*-----Barra de navegacion-----*/
+
+.container__navbar div {
+    display: block;
+    justify-content: center;
+    background-color: #7173ee;
+    font-size: 30px;
+    font-family: "Aclonica", sans-serif;
+}
+
+.container__navbar a {
+    color: #05162e;
+
+}
+
+.nav__titulo {
+
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.nav__titulo:hover {
+
+    transform: translateY(-3%);
+
+}
+
+
+
+
+
+
+/*-----index-----*/
+
+.container__index h1 {
+    color: #05162e;
+    font-size: 100px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+.container__index img {
+    width: 75%;
+    height: 800%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+}
+
+.container__index h2 {
+    background-color: #6365ce;
+    margin-right: 2%;
+    font-size: 50px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+.container__index p {
+    color: aliceblue;
+    margin: 2% 2% 2% 2%;
+    font-size: 150%;
+    font-family: "Nova Oval", cursive;
+    text-align: justify;
+    line-height: 38px;
+}
+
+/*-----Galeria-----*/
+
+.container__galeria section h1 {
+    background-color: #6365ce;
+    margin-right: 2%;
+    font-size: 50px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+.container__galeria div img {
+    width: 30%;
+    height: 900px;
+    display: inline-block;
+    margin-inline: 1.5%;
+    margin-block: 1.5%;
+}
+
+.container__galeria section h2 {
+    background-color: #6365ce;
+    margin-right: 2%;
+    font-size: 50px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+.opening iframe {
+    margin: 1%;
+    display: inline-block;
+}
+
+/*-----Contacto-----*/
+
+.container__contacto h1 {
+    background-color: #6365ce;
+    margin-right: 2%;
+    margin-top: 2%;
+    font-size: 50px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+.container__contacto form button {
+    width: 90px;
+    text-align: center;
+    background-color: #6365ce;
+    margin-left: 250px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 10px;
+    border-style: groove;
+    border-color: #05162e;
+}
+
+form label {
+    background-color: #6365ce;
+
+    font-size: 20px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+.testo {
+    margin-left: 0px;
+}
+
+/*-----biografia-----*/
+
+.container__bio h1 {
+    background-color: #6365ce;
+    margin-right: 2%;
+    font-size: 50px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+.container__bio img {
+    width: 250px;
+    height: 150px;
+}
+
+#texto {
+    display: inline-block;
+    width: 80%;
+}
+
+.container__bio p {
+    color: aliceblue;
+    margin: 2% 2% 2% 2%;
+    font-size: 150%;
+    font-family: "Nova Oval", cursive;
+    line-height: 38px;
+    background: rgba(99, 101, 206, 0.65);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.container__autor div {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.container__bio h2 {
+    background-color: #6365ce;
+    margin-right: 2%;
+    font-size: 50px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+/*-----Personajes-----*/
+
+.container__pj h1 {
+    background-color: #6365ce;
+    margin: auto;
+    font-size: 50px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+
+.caja {
+    margin: 10px;
+    width: 300px;
+    height: 600px;
+    background-color: #6365ce;
+    overflow: scroll;
+
+
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.caja:hover {
+
+    transform: translateY(-3%);
+}
+
+
+.caja__imagen {
+    width: 281px;
+    height: 281.5px;
+    display: block;
+    margin: 8px 8px;
+
+    padding: 2px;
+}
+
+
+.container__tarjetas {
+    display: inline-block;
+    display: block;
+    justify-content: center;
+}
+
+/*-----tienda-----*/
+
+.container__tienda h1 {
+    background-color: #6365ce;
+    margin: 10px;
+    ;
+    font-size: 50px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+
+}
+
+.titulo__tienda {
+    background-color: #6365ce;
+    margin: auto;
+    padding: 5px;
+    font-size: 30px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+
+}
+
+/*-----figuras-----*/
+
+.figuras {
+
+    margin: auto;
+    padding: 0%;
+    border-color: #05162e;
+    border-style: double;
+}
+
+.img__carru {
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+
+}
+
+
+.boton {
+    display: inline-block;
+    text-align: center;
+    background-color: #6365ce;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px;
+    border-style: groove;
+    border-color: #05162e;
+
+
+}
+
+.boton:hover {
+    color: rgb(26, 0, 43);
+    background-color: rgb(68, 11, 105);
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: rgb(183, 76, 233);
+}
+
+.figuras div {
+    color: #05162e;
+    background-color: #6365ce;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+/*-----manga-----*/
+
+
+
+
+.manga {
+    color: #05162e;
+    background-color: #6365ce;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+
+
+/*-----Footer-----*/
+
+footer ul li {
+    list-style: none;
+    display: inline;
+}
+
+footer ul li a {
+    font-size: 40px;
+    color: rgb(5, 22, 46);
+    text-decoration: none;
+}
+
+footer hr {
+    color: rgb(5, 22, 46);
+}
