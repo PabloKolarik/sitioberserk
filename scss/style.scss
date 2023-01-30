@@ -3,7 +3,11 @@
 
 // components
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header {
     .container__navbar div {
@@ -21,26 +25,72 @@ header {
     .nav__titulo {
         cursor: default;
         transition: all 400ms;
+
+        &:hover {
+            transform: translateY(-4%);
+        }
+    }
+}
+
+
+    body {
+        background-color: $color-fondoindex;
+        background-image: url("../imagenes/fondo2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        
     }
 
-    .nav__titulo:hover {
-        transform: translateY(-3%);
+
+    .container__index h1 {
+        color: $color-titulos;
+        font-size: 100px;
+        font-family: "Fondamento", cursive;
+        text-align: center;
+    }
+
+    .container__index img {
+        border-radius: 30px;
+        border-style: ridge;
+    }
+
+    .container__index h2 {
+        background-color: $color-fbarras;
+        font-size: 50px;
+        font-family: "Fondamento", cursive;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .container__index p {
+        color: $color-tipografia;
+        margin: 2% 2% 2% 2%;
+        font-size: 150%;
+        font-family: "Nova Oval", cursive;
+        text-align: justify;
+        line-height: 38px;
+    }
+
+    footer{
+        ul{
+            li{
+                list-style: none;
+                display: inline;
+                a{
+                    font-size: 40px;
+                    color: $color-footer;
+                    text-decoration: none;
+                }
+            }
+        }
+        hr {
+            color: $color-footer;
+            height: 5px;
+            background-color: $color-footer;
+            
+            
+            
+        }
 
     }
-}
-
-body {
-    background-color: $color-fondoindex;
-    background-image: url("../imagenes/fondo2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-
-.container__index h1{
-    color: $color-titulos;
-    
-}
-.container__index h2 {
-    background-color: $color-fbarras;
-}
