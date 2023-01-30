@@ -29,18 +29,17 @@ body {
   background-attachment: fixed;
 }
 
+/*-----index-----*/
 .container__index h1 {
   color: #05162e;
   font-size: 100px;
   font-family: "Fondamento", cursive;
   text-align: center;
 }
-
 .container__index img {
   border-radius: 30px;
   border-style: ridge;
 }
-
 .container__index h2 {
   background-color: #7173ee;
   font-size: 50px;
@@ -48,7 +47,6 @@ body {
   text-align: center;
   margin-top: 2%;
 }
-
 .container__index p {
   color: aliceblue;
   margin: 2% 2% 2% 2%;
@@ -58,14 +56,28 @@ body {
   line-height: 38px;
 }
 
+.playlist {
+  text-align: center;
+}
+
+/*-----Footer-----*/
+footer {
+  text-align: center;
+}
 footer ul li {
   list-style: none;
   display: inline;
+  padding: 8px;
 }
 footer ul li a {
   font-size: 40px;
-  color: rgb(5, 22, 46);
   text-decoration: none;
+}
+footer .icono__footer {
+  color: rgb(5, 22, 46);
+}
+footer .icono__footer:hover {
+  color: #7173ee;
 }
 footer hr {
   color: rgb(5, 22, 46);
