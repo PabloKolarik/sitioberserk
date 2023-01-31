@@ -5,19 +5,17 @@
     font-family: "Nova Oval", cursive;
 }
 
-.imggri{
+.imggri {
+
+    img {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+
+    }
+
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 
 }
-
-.imgbio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 20px 0 20px;  
-}
-
