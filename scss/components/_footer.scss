@@ -1,0 +1,32 @@
+footer {
+    text-align: center;
+
+    ul {
+        li {
+            list-style: none;
+            display: inline;
+            padding: 8px;
+
+            a {
+                font-size: 40px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .icono__footer {
+        color: $color-footer;
+
+        &:hover {
+            color: $color-fbarras;
+
+        }
+    }
+
+    hr {
+        color: $color-footer;
+        height: 5px;
+        background-color: $color-footer;
+    }
+
+}
