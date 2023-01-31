@@ -67,29 +67,31 @@ footer hr {
   font-family: "Nova Oval", cursive;
 }
 
-/*-----galeria-----*/
-.grid__img {
-  margin: auto;
+.imggri {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+}
+
+.imgbio {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  transition: transform 0.3s ease-in-out;
-}
-.grid__img:hover {
-  filter: opacity(0.9);
-  transform: scale(1.04);
+  align-items: center;
+  margin: 40px 20px 0 20px;
 }
 
-.grid__container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: minmax(200px, auto);
-  gap: 20px;
-  padding: 20px;
+.container__galeria img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
 }
 
-.playlist {
-  text-align: center;
+.videos {
+  width: 100%;
+  margin: auto;
 }
 
 .caja {
