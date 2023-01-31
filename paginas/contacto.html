@@ -38,7 +38,7 @@
     <title>Contacto</title>
 </head>
 
-<body class="container__contacto">
+<body>
 
 
     <header>
@@ -75,41 +75,36 @@
 
     </header>
 
-    <main>
+    <main  class="container__contacto">
 
-        <h1>Contacto</h1>
+        <h1 class="titulo">Contacto</h1>
 
         <form>
+            <div class="container">
+                <div class="row">
+                    <div class="mb-3 col-lg-5">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="tuemail@dominio.com">
+                    </div>
+                    <div class="mb-3 col-lg-12">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="ingresa tu consulta"></textarea>
 
-            <div class="cuadrado_nombre">
-                <label for="nombre">Introduzca su nombre
-                    <input type="text" id="nombre" required>
+                        <a href="https://www.amazon.com/-/es/Kentaro-Miura/dp/1593077440/ref=sr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=HLMCU17TYH25&keywords=maximum+berserk+19&qid=1671506108&s=books&sprefix=maximum+berserk19%2Cstripbooks-intl-ship%2C234&sr=1-2"
+                            target="_blank" class="btn boton">Enviar</a>
+                    </div>
 
 
-                </label>
 
-
-                <label for="email">Introduzca su Mail
-                    <input type="email" required>
-
-                </label>
-
+                    <div class="col-lg-5">
+                        <p class="pcontacto">
+                            Tambien puedes contactarnos por nuestras redes!
+                        </p>
+                    </div>
+                </div>
             </div>
-
-
-            <br>
-            <div>
-                <label for="textarea">Introduzca su Consulta<br>
-
-                    <textarea class="testo" name="" id="" cols="80" rows="20" required></textarea>
-
-                </label>
-
-
-            </div>
-
-            <button type="submit">Enviar</button>
-
         </form>
     </main>
 

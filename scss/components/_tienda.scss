@@ -1,0 +1,74 @@
+/*-----tienda-----*/
+
+
+.titulo__tienda {
+    background-color: $color-fbarras;
+    padding: 5px;
+    font-size: 30px;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+}
+
+/*-----figuras-----*/
+
+.figuras {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    border-color: $color-titulos;
+
+    div {
+        color: $color-titulos;
+        background-color: $color-tarjetas;
+        font-family: "Fondamento", cursive;
+        text-align: center;
+
+        .boton {
+            background-color: $color-boton1;
+            font-weight: 700;
+            padding: 5px;
+            border-color: $color-titulos;
+
+            &:hover {
+                color: darken($color-boton1, 20%);
+                background-color: darken($color-boton1, 50%);
+                border-radius: 50px;
+                border-width: 2px;
+                border-color: lighten($color-boton1, 10%);
+            }
+        }
+    }
+
+}
+
+.img__carru {
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+/*-----manga-----*/
+
+.manga {
+    padding: 1%;
+    color: $color-titulos;
+    background-color: $color-tarjetas;
+    font-family: "Fondamento", cursive;
+    text-align: center;
+
+    .boton {
+        background-color: $color-boton1;
+        font-weight: 700;
+        padding: 5px;
+        border-color: $color-titulos;
+
+        &:hover {
+            color: darken($color-boton1, 20%);
+            background-color: darken($color-boton1, 50%);
+            border-radius: 50px;
+            border-width: 2px;
+            border-color: lighten($color-boton1, 10%);
+        }
+    }
+
+}

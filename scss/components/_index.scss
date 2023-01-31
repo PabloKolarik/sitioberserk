@@ -1,0 +1,29 @@
+/*-----index-----*/
+
+.container__index {
+    h1 {
+        color: $color-titulos;
+        font-size: $ttprincipal;
+        font-family: "Fondamento", cursive;
+        text-align: center;
+    }
+
+    img {
+        border-radius: 30px;
+        border-style: ridge;
+    }
+
+
+    
+
+
+    p {
+        color: $color-tipografia;
+        margin: 2% 2% 2% 2%;
+        font-size: 150%;
+        font-family: "Nova Oval", cursive;
+        text-align: justify;
+        line-height: 38px;
+    }
+
+}

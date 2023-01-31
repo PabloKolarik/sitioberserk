@@ -40,19 +40,6 @@ footer hr {
   background-color: rgb(5, 22, 46);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #340a5c;
-  background-image: url("../imagenes/fondo2.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 /*-----index-----*/
 .container__index h1 {
   color: #05162e;
@@ -64,13 +51,6 @@ body {
   border-radius: 30px;
   border-style: ridge;
 }
-.container__index h2 {
-  background-color: #7173ee;
-  font-size: 50px;
-  font-family: "Fondamento", cursive;
-  text-align: center;
-  margin-top: 2%;
-}
 .container__index p {
   color: aliceblue;
   margin: 2% 2% 2% 2%;
@@ -80,43 +60,35 @@ body {
   line-height: 38px;
 }
 
-/*-----galeria-----*/
-.container__galeria section h1 {
-  background-color: #7173ee;
-  font-size: 50px;
-  font-family: "Fondamento", cursive;
-  text-align: center;
+.container__bio {
+  color: aliceblue;
+  font-size: 22.7272727273px;
+  text-shadow: 2px 1px 1px black;
+  font-family: "Nova Oval", cursive;
 }
 
-.grid__item {
+/*-----galeria-----*/
+.grid__img {
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aqua;
-  border-radius: 4px;
   transition: transform 0.3s ease-in-out;
-  border: solid;
 }
-
-.grid__item:hover {
+.grid__img:hover {
   filter: opacity(0.9);
   transform: scale(1.04);
 }
 
 .grid__container {
   display: grid;
-  grid-template-columns: 100px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
 }
 
 .playlist {
-  text-align: center;
-}
-
-/*-----personajes-----*/
-.container__pj h1 {
-  background-color: #7173ee;
-  font-size: 50px;
-  font-family: "Fondamento", cursive;
   text-align: center;
 }
 
@@ -141,14 +113,7 @@ body {
 }
 
 /*-----tienda-----*/
-.container__tienda h1 {
-  background-color: #7173ee;
-  margin: 10px;
-  font-size: 50px;
-  font-family: "Fondamento", cursive;
-  text-align: center;
-}
-.container__tienda .titulo__tienda {
+.titulo__tienda {
   background-color: #7173ee;
   padding: 5px;
   font-size: 30px;
@@ -209,6 +174,46 @@ body {
   border-radius: 50px;
   border-width: 2px;
   border-color: #ba8fd7;
+}
+
+.pcontacto {
+  color: aliceblue;
+}
+
+.boton {
+  color: #05162e;
+  background-color: #a369ca;
+  font-weight: 700;
+  padding: 5px;
+  border-color: #05162e;
+}
+.boton:hover {
+  color: #703697;
+  background-color: #1c0e26;
+  border-radius: 50px;
+  border-width: 2px;
+  border-color: #ba8fd7;
+}
+
+.titulo {
+  background-color: #7173ee;
+  margin-top: 2%;
+  font-size: 50px;
+  font-family: "Fondamento", cursive;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #340a5c;
+  background-image: url("../imagenes/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*# sourceMappingURL=style.css.map */
