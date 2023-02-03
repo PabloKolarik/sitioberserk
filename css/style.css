@@ -72,6 +72,7 @@ footer hr {
   margin: 2% 2% 2% 2%;
   font-size: 150%;
   font-family: "Nova Oval", cursive;
+  text-shadow: 2px 1px 1px black;
   text-align: justify;
   line-height: 38px;
 }
