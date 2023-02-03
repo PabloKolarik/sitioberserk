@@ -112,6 +112,7 @@ footer hr {
   height: 600px;
   background-color: rgba(113, 115, 238, 0.5254901961);
   overflow: scroll;
+  overflow-x: hidden;
   cursor: default;
   transition: all 400ms ease;
 }
