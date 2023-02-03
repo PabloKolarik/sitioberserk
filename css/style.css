@@ -1,7 +1,27 @@
+footer .fa-facebook, footer .top, footer .fa-reddit-alien, footer .fa-twitter, footer .fa-instagram {
+  color: rgb(5, 22, 46);
+}
+footer .fa-facebook:hover, footer .top:hover, footer .fa-reddit-alien:hover, footer .fa-twitter:hover, footer .fa-instagram:hover {
+  color: rgba(113, 115, 238, 0.5254901961);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #340a5c;
+  background-image: url("../imagenes/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 header .container__navbar div {
   display: block;
   justify-content: center;
-  background-color: #7173ee;
+  background-color: rgba(113, 115, 238, 0.5254901961);
   font-size: 30px;
   font-family: "Aclonica", sans-serif;
 }
@@ -27,12 +47,6 @@ footer ul li {
 footer ul li a {
   font-size: 40px;
   text-decoration: none;
-}
-footer .icono__footer {
-  color: rgb(5, 22, 46);
-}
-footer .icono__footer:hover {
-  color: #7173ee;
 }
 footer hr {
   color: rgb(5, 22, 46);
@@ -94,7 +108,7 @@ footer hr {
   margin: 10px;
   width: 300px;
   height: 600px;
-  background-color: #7173ee;
+  background-color: rgba(113, 115, 238, 0.5254901961);
   overflow: scroll;
   cursor: default;
   transition: all 400ms ease;
@@ -112,7 +126,7 @@ footer hr {
 
 /*-----tienda-----*/
 .titulo__tienda {
-  background-color: #7173ee;
+  background-color: rgba(113, 115, 238, 0.5254901961);
   padding: 5px;
   font-size: 30px;
   font-family: "Fondamento", cursive;
@@ -125,10 +139,11 @@ footer hr {
   margin-right: auto;
   padding: 0%;
   border-color: #05162e;
+  background-color: rgba(84, 86, 184, 0.5254901961);
 }
 .figuras div {
   color: #05162e;
-  background-color: #5455b8;
+  background-color: rgba(84, 86, 184, 0.5254901961);
   font-family: "Fondamento", cursive;
   text-align: center;
 }
@@ -156,7 +171,7 @@ footer hr {
 .manga {
   padding: 1%;
   color: #05162e;
-  background-color: #5455b8;
+  background-color: rgba(84, 86, 184, 0.5254901961);
   font-family: "Fondamento", cursive;
   text-align: center;
 }
@@ -194,24 +209,11 @@ footer hr {
 }
 
 .titulo {
-  background-color: #7173ee;
+  background-color: rgba(113, 115, 238, 0.5254901961);
   margin-top: 2%;
   font-size: 50px;
   font-family: "Fondamento", cursive;
   text-align: center;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #340a5c;
-  background-image: url("../imagenes/fondo2.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 /*# sourceMappingURL=style.css.map */

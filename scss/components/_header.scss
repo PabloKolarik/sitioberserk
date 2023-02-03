@@ -4,7 +4,7 @@ header {
             display: block;
             justify-content: center;
             background-color: $color-fbarras;
-            font-size: 30px;
+            font-size: nth($tamaños, 2);
             font-family: "Aclonica", sans-serif;
         }
 

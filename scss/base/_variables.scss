@@ -1,2 +1,11 @@
-$ttprincipal: 100px; 
+$ttprincipal: 100px;
 $ttsecundario: $ttprincipal/2;
+
+%iconosfoot {
+    color: $color-footer;
+
+    &:hover {
+        color: $color-fbarras;
+
+    }
+}

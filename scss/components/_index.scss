@@ -9,7 +9,7 @@
     }
 
     img {
-        border-radius: 30px;
+        border-radius: nth($tamaños, 2 );
         border-style: ridge;
     }
 
@@ -24,6 +24,7 @@
         font-family: "Nova Oval", cursive;
         text-align: justify;
         line-height: 38px;
+        
     }
 
 }

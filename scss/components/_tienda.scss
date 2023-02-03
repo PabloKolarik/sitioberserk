@@ -4,7 +4,7 @@
 .titulo__tienda {
     background-color: $color-fbarras;
     padding: 5px;
-    font-size: 30px;
+    font-size: nth($tamaños, 2);
     font-family: "Fondamento", cursive;
     text-align: center;
 }
@@ -16,6 +16,7 @@
     margin-right: auto;
     padding: 0%;
     border-color: $color-titulos;
+    background-color: $color-tarjetas;
 
     div {
         color: $color-titulos;
@@ -32,7 +33,7 @@
             &:hover {
                 color: darken($color-boton1, 20%);
                 background-color: darken($color-boton1, 50%);
-                border-radius: 50px;
+                border-radius: nth($tamaños, 1);
                 border-width: 2px;
                 border-color: lighten($color-boton1, 10%);
             }

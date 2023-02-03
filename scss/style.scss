@@ -1,9 +1,11 @@
 // base
 @import './base/colores';
 @import './base/variables';
+@import './base/lista';
 
 // components
 
+@import './components/body';
 @import './components/header';
 @import './components/footer';
 @import './components/index';
@@ -14,19 +16,3 @@
 @import './components/contacto';
 @import './components/barrastitulo';
 
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-
-body {
-    background-color: $color-fondoindex;
-    background-image: url("../imagenes/fondo2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}

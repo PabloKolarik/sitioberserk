@@ -14,14 +14,22 @@ footer {
         }
     }
 
-    .icono__footer {
-        color: $color-footer;
+    .fa-facebook, .fa-instagram {
+        @extend %iconosfoot;
 
-        &:hover {
-            color: $color-fbarras;
-
-        }
     }
+
+    .fa-reddit-alien, .fa-twitter {
+        @extend .fa-facebook;
+    }
+        
+    .top{
+        @extend .fa-facebook
+
+    }
+    
+
+      
 
     hr {
         color: $color-footer;
