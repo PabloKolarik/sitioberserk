@@ -10,14 +10,14 @@
     color: $color-titulos;
     background-color: $color-boton1;
     font-weight: 700;
-    padding: 5px;
+    padding: nth($tamaños,4);
     border-color: $color-titulos;
 
     &:hover {
         color: darken($color-boton1, 20%);
         background-color: darken($color-boton1, 50%);
         border-radius: nth($tamaños, 1);
-        border-width: 2px;
+        border-width: nth($tamaños,8);
         border-color: lighten($color-boton1, 10%);
     }
 }

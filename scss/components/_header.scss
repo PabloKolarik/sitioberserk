@@ -1,7 +1,7 @@
 header {
     .container__navbar {
         div {
-            display: block;
+            padding: nth($tamaños,3);
             justify-content: center;
             background-color: $color-fbarras;
             font-size: nth($tamaños, 2);
@@ -10,15 +10,20 @@ header {
 
         a {
             color: $color-titulos;
+            padding: nth($tamaños,3)/2;
+            background-color: $color-fbarras;
+            
         }
     }
 
     .nav__titulo {
         cursor: default;
         transition: all 400ms;
+        
 
         &:hover {
             transform: translateY(-4%);
         }
     }
 }
+

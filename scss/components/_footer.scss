@@ -1,14 +1,14 @@
 footer {
     text-align: center;
-
+    
     ul {
         li {
             list-style: none;
             display: inline;
-            padding: 8px;
+            padding: nth($tamaños,5);
 
             a {
-                font-size: 40px;
+                font-size: nth($tamaños,6);
                 text-decoration: none;
             }
         }
@@ -33,7 +33,7 @@ footer {
 
     hr {
         color: $color-footer;
-        height: 5px;
+        height: nth($tamaños,4);
         background-color: $color-footer;
     }
 

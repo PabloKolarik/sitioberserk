@@ -19,7 +19,7 @@ body {
 }
 
 header .container__navbar div {
-  display: block;
+  padding: 0;
   justify-content: center;
   background-color: rgba(113, 115, 238, 0.5254901961);
   font-size: 30px;
@@ -27,6 +27,8 @@ header .container__navbar div {
 }
 header .container__navbar a {
   color: #05162e;
+  padding: 0;
+  background-color: rgba(113, 115, 238, 0.5254901961);
 }
 header .nav__titulo {
   cursor: default;
@@ -137,7 +139,7 @@ footer hr {
 .figuras {
   margin-left: auto;
   margin-right: auto;
-  padding: 0%;
+  padding: 0;
   border-color: #05162e;
   background-color: rgba(84, 86, 184, 0.5254901961);
 }
