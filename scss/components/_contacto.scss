@@ -47,9 +47,10 @@
 
 }
 
-.imgcon{
+.imgcon {
     margin: auto;
     text-align: center;
+
     @media screen and (max-width: 1000px) {
         display: none;
     }

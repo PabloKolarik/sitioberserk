@@ -1,20 +1,17 @@
-/*-----tienda-----*/
-
-
 .titulo__tienda {
     background-color: $color-fbarras;
-    padding: nth($tamanios,4);
+    padding: nth($tamanios, 4);
     font-size: nth($tamanios, 2);
     font-family: "Fondamento", cursive;
     text-align: center;
 }
 
-/*-----figuras-----*/
+
 
 .figuras {
     margin-left: auto;
     margin-right: auto;
-    padding: nth($tamanios,3);
+    padding: nth($tamanios, 3);
     border-color: $color-titulos;
     background-color: $color-tarjetas;
 
@@ -27,14 +24,14 @@
         .boton {
             background-color: $color-boton1;
             font-weight: 700;
-            padding: nth($tamanios,4);
+            padding: nth($tamanios, 4);
             border-color: $color-titulos;
 
             &:hover {
                 color: darken($color-boton1, 20%);
                 background-color: darken($color-boton1, 50%);
                 border-radius: nth($tamanios, 1);
-                border-width: nth($tamanios,8);
+                border-width: nth($tamanios, 8);
                 border-color: lighten($color-boton1, 10%);
             }
         }
@@ -43,12 +40,11 @@
 }
 
 .img__carru {
-    padding: nth($tamanios,4)*2;
-    width: nth($tamanios,2)*10;
-    height: nth($tamanios,6)*10;
+    padding: nth($tamanios, 4)*2;
+    width: nth($tamanios, 2)*10;
+    height: nth($tamanios, 6)*10;
 }
 
-/*-----manga-----*/
 
 .manga {
     padding: 1%;
@@ -60,14 +56,14 @@
     .boton {
         background-color: $color-boton1;
         font-weight: 700;
-        padding: nth($tamanios,4);
+        padding: nth($tamanios, 4);
         border-color: $color-titulos;
 
         &:hover {
             color: darken($color-boton1, 20%);
             background-color: darken($color-boton1, 50%);
-            border-radius: nth($tamanios,1);
-            border-width: nth($tamanios,8);
+            border-radius: nth($tamanios, 1);
+            border-width: nth($tamanios, 8);
             border-color: lighten($color-boton1, 10%);
         }
     }

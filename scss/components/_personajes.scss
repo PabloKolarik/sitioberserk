@@ -1,9 +1,7 @@
-
-
 .caja {
-    margin: nth($tamanios,4)*2;
-    width: nth($tamanios,2)*10;
-    height: nth($tamanios,2)*20;
+    margin: nth($tamanios, 4)*2;
+    width: nth($tamanios, 2)*10;
+    height: nth($tamanios, 2)*20;
     background-color: $color-fbarras;
     overflow: scroll;
     overflow-x: hidden;
@@ -20,5 +18,5 @@
     width: 281px;
     height: 281.5px;
     margin: 8px 8px;
-    padding: nth($tamanios,8);
+    padding: nth($tamanios, 8);
 }

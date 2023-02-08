@@ -1,8 +1,8 @@
 header {
-    
+
     .container__navbar {
         div {
-            padding: nth($tamanios,3);
+            padding: nth($tamanios, 3);
             justify-content: center;
             text-shadow: 1px 1px 1px $color-tipografia;
             font-size: nth($tamanios, 2);
@@ -11,16 +11,16 @@ header {
 
         a {
             color: $color-titulos;
-            margin-left: nth($tamanios, 4 );
-            padding: nth($tamanios,3);
-            
+            margin-left: nth($tamanios, 4);
+            padding: nth($tamanios, 3);
+
         }
     }
 
-    .nav__titulo a{
+    .nav__titulo a {
         cursor: default;
         transition: all 400ms;
-        
+
 
         &:hover {
             transform: translateY(-4%);
@@ -30,4 +30,3 @@ header {
         }
     }
 }
-

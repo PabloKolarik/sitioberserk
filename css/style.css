@@ -54,11 +54,6 @@ footer ul li a {
   font-size: 40px;
   text-decoration: none;
 }
-footer hr {
-  color: rgb(5, 22, 46);
-  height: 5px;
-  background-color: rgb(5, 22, 46);
-}
 footer .foo {
   position: absolute;
   bottom: 0;
@@ -66,7 +61,6 @@ footer .foo {
   padding: 0;
 }
 
-/*-----index-----*/
 .container__index h1 {
   color: #05162e;
   font-size: 100px;
@@ -138,7 +132,6 @@ footer .foo {
   padding: 2px;
 }
 
-/*-----tienda-----*/
 .titulo__tienda {
   background-color: rgba(113, 115, 238, 0.5254901961);
   padding: 5px;
@@ -147,7 +140,6 @@ footer .foo {
   text-align: center;
 }
 
-/*-----figuras-----*/
 .figuras {
   margin-left: auto;
   margin-right: auto;
@@ -181,7 +173,6 @@ footer .foo {
   height: 400px;
 }
 
-/*-----manga-----*/
 .manga {
   padding: 1%;
   color: #05162e;

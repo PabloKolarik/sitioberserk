@@ -1,5 +1,3 @@
-/*-----index-----*/
-
 .container__index {
     h1 {
         color: $color-titulos;
@@ -9,12 +7,12 @@
     }
 
     img {
-        border-radius: nth($tamanios, 2 );
+        border-radius: nth($tamanios, 2);
         border-style: ridge;
     }
 
 
-    
+
 
 
     p {
@@ -24,8 +22,8 @@
         font-family: "Nova Oval", cursive;
         text-shadow: 2px 1px 1px black;
         text-align: justify;
-        line-height: nth($tamanios,7);
-        
+        line-height: nth($tamanios, 7);
+
     }
 
 }

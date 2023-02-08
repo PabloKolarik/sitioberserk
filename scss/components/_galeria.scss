@@ -1,11 +1,10 @@
+.container__galeria {
 
-.container__galeria{
-   
-    img{
-        margin: nth($tamanios,3);
+    img {
+        margin: nth($tamanios, 3);
         width: 100%;
         height: 100%;
-        padding: nth($tamanios,4);
+        padding: nth($tamanios, 4);
     }
 
 }
@@ -14,4 +13,3 @@
     width: 100%;
     margin: auto;
 }
-

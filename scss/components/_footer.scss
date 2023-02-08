@@ -1,15 +1,15 @@
 footer {
     text-align: center;
-    
+
     ul {
         li {
             list-style: none;
             display: inline;
-            padding: nth($tamanios,5);
+            padding: nth($tamanios, 5);
             margin-left: auto;
 
             a {
-                font-size: nth($tamanios,6);
+                font-size: nth($tamanios, 6);
                 text-decoration: none;
             }
         }
@@ -23,27 +23,18 @@ footer {
     .fa-reddit-alien, .fa-twitter {
         @extend .fa-facebook;
     }
-        
-    .top{
+
+    .top {
         @extend .fa-facebook
-
     }
-    
 
-      
 
-    hr {
-        color: $color-footer;
-        height: nth($tamanios,4);
-        background-color: $color-footer;
-        
-    }
-    .foo{
+    .foo {
         position: absolute;
         bottom: 0;
         width: 100%;
         padding: 0;
-        
+
     }
 
 }
