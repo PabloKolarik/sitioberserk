@@ -4,7 +4,7 @@ header {
         div {
             padding: nth($tamanios,3);
             justify-content: center;
-            
+            text-shadow: 1px 1px 1px $color-tipografia;
             font-size: nth($tamanios, 2);
             font-family: "Aclonica", sans-serif;
         }
@@ -12,7 +12,7 @@ header {
         a {
             color: $color-titulos;
             margin-left: nth($tamanios, 4 );
-            padding: nth($tamanios,3)/2;
+            padding: nth($tamanios,3);
             
         }
     }
@@ -26,6 +26,7 @@ header {
             transform: translateY(-4%);
             @extend %iconosfoot;
             text-decoration: underline;
+            text-shadow: 1px 1px $color-titulos;
         }
     }
 }

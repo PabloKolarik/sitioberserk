@@ -22,6 +22,7 @@ body {
 header .container__navbar div {
   padding: 0;
   justify-content: center;
+  text-shadow: 1px 1px 1px aliceblue;
   font-size: 30px;
   font-family: "Aclonica", sans-serif;
 }
@@ -37,6 +38,7 @@ header .nav__titulo a {
 header .nav__titulo a:hover {
   transform: translateY(-4%);
   text-decoration: underline;
+  text-shadow: 1px 1px #05162e;
 }
 
 footer {
@@ -187,13 +189,13 @@ footer .foo {
   font-family: "Fondamento", cursive;
   text-align: center;
 }
-.manga .botont {
+.manga .boton {
   background-color: #a369ca;
   font-weight: 700;
   padding: 5px;
   border-color: #05162e;
 }
-.manga .botont:hover {
+.manga .boton:hover {
   color: #703697;
   background-color: #1c0e26;
   border-radius: 50px;
