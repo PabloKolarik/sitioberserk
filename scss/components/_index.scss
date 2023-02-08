@@ -9,7 +9,7 @@
     }
 
     img {
-        border-radius: nth($tamaños, 2 );
+        border-radius: nth($tamanios, 2 );
         border-style: ridge;
     }
 
@@ -20,11 +20,11 @@
     p {
         color: $color-tipografia;
         margin: 2% 2% 2% 2%;
-        font-size: 150%;
+        font-size: $ttsecundario /2.2;
         font-family: "Nova Oval", cursive;
         text-shadow: 2px 1px 1px black;
         text-align: justify;
-        line-height: nth($tamaños,7);
+        line-height: nth($tamanios,7);
         
     }
 

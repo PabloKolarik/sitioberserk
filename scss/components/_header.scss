@@ -1,28 +1,31 @@
 header {
+    
     .container__navbar {
         div {
-            padding: nth($tamaños,3);
+            padding: nth($tamanios,3);
             justify-content: center;
-            background-color: $color-fbarras;
-            font-size: nth($tamaños, 2);
+            
+            font-size: nth($tamanios, 2);
             font-family: "Aclonica", sans-serif;
         }
 
         a {
             color: $color-titulos;
-            padding: nth($tamaños,3)/2;
-            background-color: $color-fbarras;
+            margin-left: nth($tamanios, 4 );
+            padding: nth($tamanios,3)/2;
             
         }
     }
 
-    .nav__titulo {
+    .nav__titulo a{
         cursor: default;
         transition: all 400ms;
         
 
         &:hover {
             transform: translateY(-4%);
+            @extend %iconosfoot;
+            text-decoration: underline;
         }
     }
 }

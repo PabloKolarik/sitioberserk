@@ -1,7 +1,7 @@
-footer .fa-facebook, footer .top, footer .fa-reddit-alien, footer .fa-twitter, footer .fa-instagram, header .nav__titulo a:hover {
+footer .fa-facebook, footer .top, footer .fa-reddit-alien, footer .fa-twitter, footer .fa-instagram {
   color: rgb(5, 22, 46);
 }
-footer .fa-facebook:hover, footer .top:hover, footer .fa-reddit-alien:hover, footer .fa-twitter:hover, footer .fa-instagram:hover, header .nav__titulo a:hover {
+footer .fa-facebook:hover, footer .top:hover, footer .fa-reddit-alien:hover, footer .fa-twitter:hover, footer .fa-instagram:hover {
   color: rgba(113, 115, 238, 0.5254901961);
 }
 
@@ -14,7 +14,6 @@ footer .fa-facebook:hover, footer .top:hover, footer .fa-reddit-alien:hover, foo
 body {
   background-color: #340a5c;
   background-image: url("../imagenes/fondo2.jpg");
-  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -22,21 +21,21 @@ body {
 header .container__navbar div {
   padding: 0;
   justify-content: center;
+  background-color: rgba(113, 115, 238, 0.5254901961);
   font-size: 30px;
   font-family: "Aclonica", sans-serif;
 }
 header .container__navbar a {
   color: #05162e;
-  margin-left: 5px;
   padding: 0;
+  background-color: rgba(113, 115, 238, 0.5254901961);
 }
-header .nav__titulo a {
+header .nav__titulo {
   cursor: default;
   transition: all 400ms;
 }
-header .nav__titulo a:hover {
+header .nav__titulo:hover {
   transform: translateY(-4%);
-  text-decoration: underline;
 }
 
 footer {
@@ -45,8 +44,7 @@ footer {
 footer ul li {
   list-style: none;
   display: inline;
-  padding: 3px;
-  margin-left: auto;
+  padding: 8px;
 }
 footer ul li a {
   font-size: 40px;
@@ -56,12 +54,6 @@ footer hr {
   color: rgb(5, 22, 46);
   height: 5px;
   background-color: rgb(5, 22, 46);
-}
-footer .foo {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 0;
 }
 
 /*-----index-----*/
@@ -78,7 +70,7 @@ footer .foo {
 .container__index p {
   color: aliceblue;
   margin: 2% 2% 2% 2%;
-  font-size: 22.7272727273px;
+  font-size: 150%;
   font-family: "Nova Oval", cursive;
   text-shadow: 2px 1px 1px black;
   text-align: justify;
@@ -203,20 +195,14 @@ footer .foo {
 
 .pcontacto {
   color: aliceblue;
-  font-family: "Nova Oval", cursive;
-  text-shadow: 2px 1px 1px black;
-  font-size: 30px;
-  padding-bottom: 30px;
 }
 
 .boton {
   color: #05162e;
   background-color: #a369ca;
-  font-size: 30px;
   font-weight: 700;
   padding: 5px;
   border-color: #05162e;
-  border-radius: 5px;
 }
 .boton:hover {
   color: #703697;
@@ -226,31 +212,10 @@ footer .foo {
   border-color: #ba8fd7;
 }
 
-.formulario .msj {
-  height: 180px;
-}
-.formulario button,
-.formulario input,
-.formulario textarea {
-  width: 100%;
-}
-
-.imgcon {
-  margin: auto;
-  text-align: center;
-}
-@media screen and (max-width: 1000px) {
-  .imgcon {
-    display: none;
-  }
-}
-
 .titulo {
   background-color: rgba(113, 115, 238, 0.5254901961);
   margin-top: 2%;
   font-size: 50px;
   font-family: "Fondamento", cursive;
   text-align: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -5,10 +5,11 @@ footer {
         li {
             list-style: none;
             display: inline;
-            padding: nth($tamaños,5);
+            padding: nth($tamanios,5);
+            margin-left: auto;
 
             a {
-                font-size: nth($tamaños,6);
+                font-size: nth($tamanios,6);
                 text-decoration: none;
             }
         }
@@ -33,8 +34,16 @@ footer {
 
     hr {
         color: $color-footer;
-        height: nth($tamaños,4);
+        height: nth($tamanios,4);
         background-color: $color-footer;
+        
+    }
+    .foo{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 0;
+        
     }
 
 }

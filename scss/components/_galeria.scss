@@ -2,10 +2,10 @@
 .container__galeria{
    
     img{
-        margin: nth($tamaños,3);
+        margin: nth($tamanios,3);
         width: 100%;
         height: 100%;
-        padding: nth($tamaños,4);
+        padding: nth($tamanios,4);
     }
 
 }

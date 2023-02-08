@@ -1,7 +1,9 @@
-
-
 .pcontacto {
     color: $color-tipografia;
+    font-family: "Nova Oval", cursive;
+    text-shadow: 2px 1px 1px black;
+    font-size: nth($tamanios, 2);
+    padding-bottom: 30px;
 
 }
 
@@ -9,15 +11,46 @@
 .boton {
     color: $color-titulos;
     background-color: $color-boton1;
+    font-size: nth($tamanios, 2);
     font-weight: 700;
-    padding: nth($tamaños,4);
+    padding: nth($tamanios, 4);
     border-color: $color-titulos;
+    border-radius: 5px;
+
 
     &:hover {
         color: darken($color-boton1, 20%);
         background-color: darken($color-boton1, 50%);
-        border-radius: nth($tamaños, 1);
-        border-width: nth($tamaños,8);
+        border-radius: nth($tamanios, 1);
+        border-width: nth($tamanios, 8);
         border-color: lighten($color-boton1, 10%);
+    }
+}
+
+
+
+
+
+.formulario {
+    .msj {
+        height: 180px;
+    }
+
+    button,
+    input,
+    textarea {
+        width: 100%;
+
+
+    }
+
+
+}
+
+.imgcon{
+    margin: auto;
+    text-align: center;
+    @media screen and (max-width: 1000px) {
+        display: none;
     }
 }
