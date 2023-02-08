@@ -187,13 +187,13 @@ footer .foo {
   font-family: "Fondamento", cursive;
   text-align: center;
 }
-.manga .boton {
+.manga .botont {
   background-color: #a369ca;
   font-weight: 700;
   padding: 5px;
   border-color: #05162e;
 }
-.manga .boton:hover {
+.manga .botont:hover {
   color: #703697;
   background-color: #1c0e26;
   border-radius: 50px;
@@ -209,7 +209,7 @@ footer .foo {
   padding-bottom: 30px;
 }
 
-.boton {
+.botonc {
   color: #05162e;
   background-color: #a369ca;
   font-size: 30px;
@@ -218,7 +218,7 @@ footer .foo {
   border-color: #05162e;
   border-radius: 5px;
 }
-.boton:hover {
+.botonc:hover {
   color: #703697;
   background-color: #1c0e26;
   border-radius: 50px;
